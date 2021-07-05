@@ -1,0 +1,111 @@
+body {
+    margin: auto;
+    width: 900px;
+    height: 720px;
+    background-color: #eeeeee;
+}
+
+h1 {
+    border: 2px green solid;
+    color: #8800ff;
+    text-align: center;
+    padding: 10px;
+}
+
+.medio{
+    width: 100%;
+    height: 70%;
+    border: 2px green solid;
+    background: linear-gradient(rgba(44, 38, 38, 0.5), rgb(44, 38, 38, 0.5)),url("../img/screen-3.jpg");
+    background-size: cover; 
+}
+
+.division1{
+    width: 99.5%;
+    height: 50%;
+    padding-top: 2%;
+    display:flex;
+}
+
+.division2{
+    width: 100%;
+    height: 46%;
+}
+
+.mitad{
+    width: 50%;
+    height: 100%;
+}
+
+.foto{
+    width:53%;
+    height: 83%;
+    border: 2px blue solid;
+    background-color: black;
+    margin-left: 20%;
+}
+
+.imagen {
+    width: 100%;
+    height: 100%;
+}
+
+.letra{
+    width: 100%;
+    height: 90%;
+}
+
+h2{
+    color: #8800ff;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+
+h3{
+    color: black;
+    text-align: center;
+}
+
+.formulario{
+    width: 30%;
+    height: 56%;
+    margin-left: 35%;
+    border: 2px green solid;
+}
+
+.content{
+    width: 100%;
+    height: 96%;
+    margin-left: 0%;
+}
+
+.boton{
+    text-decoration: none;
+    background-color: #ffbc00;
+    margin-left: 38%;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #080909;
+    border-radius: 6px;
+    border: 2px solid #ffbc00;
+    line-height: -3pt;
+    width: 17%;
+    height: 14%;
+}
+
+.boton:hover{
+    text-decoration: none;
+    background-color: #080909;
+    margin-left: 38%;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffbc00;
+    border-radius: 6px;
+    border: 2px solid #ffbc00;
+    line-height: -3pt;
+    width: 17%;
+    height: 14%;
+}
