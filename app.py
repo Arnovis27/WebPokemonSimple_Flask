@@ -39,7 +39,7 @@ def buscar():
             imagen.write(urllib.request.urlopen(front_sprite).read())
             imagen.close()
     else:
-        return "Id de Pokemon invalido"
+        return render_template('index.html')
 
     return render_template('buscar.html')
 
